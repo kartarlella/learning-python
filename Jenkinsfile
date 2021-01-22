@@ -6,7 +6,7 @@ pipeline {
   
     stage("build") {
       steps {
-        cat "C:\git\hello.txt"
+        cat "/C/git/hello.txt"
       }
     }
 
