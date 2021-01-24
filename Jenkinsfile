@@ -6,13 +6,13 @@ pipeline {
   
     stage("build") {
       steps {
-        cat "/C/git/hello.txt"
+        echo "this is Development section"
       }
     }
 
     stage("test") {
       steps {
-        echo "Testing"
+        echo "this is Testing section.."
       }
     }
 
